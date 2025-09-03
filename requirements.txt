@@ -1,0 +1,21 @@
+# Uncomment to enable Azure Monitor OpenTelemetry
+# Ref: aka.ms/functions-azure-monitor-python
+# azure-monitor-opentelemetry
+
+# Azure Functions runtime
+azure-functions
+
+# Azure Monitor (telemetría) – opcional
+# azure-monitor-opentelemetry
+
+# Azure Table Storage SDK
+azure-data-tables
+azure-core
+
+# HTTP requests
+requests
+
+azure.identity
+
+azure.digitaltwins.core
+

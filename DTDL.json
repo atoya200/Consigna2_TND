@@ -1,0 +1,50 @@
+{
+ "@id": "dtmi:tnd:DataCenter;1",
+ "@type": "Interface",
+ "@context": "dtmi:dtdl:context;2",
+ "displayName": "DataCenter",
+ "contents": [
+  {
+   "@type": "Property",
+   "name": "temperature",
+   "displayName": "Temperature",
+   "schema": "double"
+  },
+  {
+   "@type": "Property",
+   "name": "humidity",
+   "displayName": "Humidity",
+   "schema": "double"
+  },
+  {
+   "@type": "Property",
+   "name": "voltage",
+   "displayName": "Voltage",
+   "schema": "double"
+  },
+  {
+   "@type": "Property",
+   "name": "powerConsumption",
+   "displayName": "Power Consumption",
+   "schema": "double"
+  },
+  {
+   "@type": "Property",
+   "name": "airConditioner",
+   "displayName": "Air Conditioner",
+   "schema": "boolean"
+  },
+  {
+   "@type": "Property",
+   "name": "dehumidifier",
+   "displayName": "Dehumidifier",
+   "schema": "boolean"
+  },
+  {
+   "@type": "Property",
+   "name": "alert",
+   "displayName": "Alert",
+   "schema": "string"
+  }
+ ]
+}
