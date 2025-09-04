@@ -15,7 +15,7 @@ azure-core
 # HTTP requests
 requests
 
-azure.identity
+azure-identity
+azure-digitaltwins-core
 
-azure.digitaltwins.core
 
